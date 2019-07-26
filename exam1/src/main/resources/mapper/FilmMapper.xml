@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" " http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wx.exam1.dao.FilmMapper">
+    <!--设置domain类和数据库中表的字段一一对应，注意数据库字段和domain类中的字段名称不致，此处一定要！ -->
+    <resultMap id="BaseResultMap" type="com.wx.exam1.domain.Film">
+        <id column="film_id" property="film_id" jdbcType="INTEGER"/>
+        <id column="title" property="title" jdbcType="VARCHAR"/>
+        <id column="description" property="description" jdbcType="VARCHAR"/>
+        <id column="language_id" property="language_id" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <select id="select" resultMap="BaseResultMap" parameterType="com.wx.exam1.domain.Film">
+        SELECT * From film
+    </select>
+    <insert id="insertFilm" keyProperty="film_id" useGeneratedKeys="true" parameterType="com.wx.exam1.domain.Film" >
+        INSERT
+        INTO
+        film (title,description,language_id)
+        VALUES
+        (#{title},#{description},#{language_id})
+    </insert>
+
+    <select id="selectByPage" resultMap="BaseResultMap" parameterType="com.wx.exam1.domain.Page">
+        SELECT * FROM film  limit #{startIndex},#{pageSize}
+    </select>
+    <select id="totalCount" resultType="java.lang.Integer">
+        SELECT COUNT(f.film_id) FROM film f
+    </select>
+
+</mapper>

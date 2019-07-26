@@ -1,0 +1,36 @@
+
+server:
+  port: 18080
+spring:
+  thymeleaf:
+    suffix: .html
+    cache: false
+    encoding: UTF-8
+    prefix:  classpath:/templates/
+  profiles:
+        active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${MYSQL_IP}:${MYSQL_PORT}/${MYSQL_DBNAME}?characterEncoding=utf8
+    username: ${MYSQL_NAME}
+    password: ${MYSQL_PWD}
+mybatis:
+  mapper-locations: classpath:mapper/*
+  type-aliases-package: com.wx.exam1.domain.*
+  config-location: classpath:mybatis-config.xml
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+
+
+
+
+
+
+
+
+
