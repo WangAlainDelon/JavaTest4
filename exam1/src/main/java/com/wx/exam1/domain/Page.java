@@ -1,6 +1,7 @@
 package com.wx.exam1.domain;
 
 
+import javax.validation.constraints.NotBlank;
 import java.util.List;
 
 /**
@@ -11,9 +12,9 @@ import java.util.List;
 public class Page<T> {
 
     private List<T> dataList;//数据
-
+    @NotBlank
     private Integer pag;//当前页
-
+    @NotBlank
     private Integer pageSize;//条数
 
     private long total;//总条数

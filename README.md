@@ -11,4 +11,5 @@ SpringBoot+MyBatis的CRUD
 * 有curl.sh 用于向Java 容器发起请求
 * curl中的请求需要修该数据
 * 每个请求的执行结果都会有返回值，
-* 功能写完了curl命令还没写完。。。。
+
+### 请求需要单独复制出来修改ip和id执行，curl.sh内有说明

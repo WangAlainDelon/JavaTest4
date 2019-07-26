@@ -1371,3 +1371,79 @@
 2019-07-26 11:30:14.943 INFO [http-nio-18080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-07-26 11:30:14.943 INFO [http-nio-18080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
 2019-07-26 11:30:14.949 INFO [http-nio-18080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 5 ms
+2019-07-26 13:22:38.889 INFO [restartedMain]com.wx.exam1.Exam1Application.logStarting:50 -Starting Exam1Application on LAPTOP-CTHANLP5 with PID 8324 (D:\IDEA\JavaTest4\exam1\target\classes started by wangxiang in D:\IDEA\JavaTest4)
+2019-07-26 13:22:38.892 INFO [restartedMain]com.wx.exam1.Exam1Application.logStartupProfileInfo:650 -The following profiles are active: prod
+2019-07-26 13:22:38.931 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-26 13:22:38.931 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-26 13:22:39.436 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'addressMapper' and 'com.wx.exam1.dao.AddressMapper' mapperInterface. Bean already defined with the same name!
+2019-07-26 13:22:39.436 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'customerMapper' and 'com.wx.exam1.dao.CustomerMapper' mapperInterface. Bean already defined with the same name!
+2019-07-26 13:22:39.437 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'filmMapper' and 'com.wx.exam1.dao.FilmMapper' mapperInterface. Bean already defined with the same name!
+2019-07-26 13:22:39.437 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.wx.exam1]' package. Please check your configuration.
+2019-07-26 13:22:39.944 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 18080 (http)
+2019-07-26 13:22:39.956 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-18080"]
+2019-07-26 13:22:39.965 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-26 13:22:39.965 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 13:22:40.048 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-26 13:22:40.048 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 1116 ms
+2019-07-26 13:22:40.467 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-26 13:22:40.468 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-26 13:22:40.468 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-26 13:22:40.470 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-07-26 13:22:40.603 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-26 13:22:40.628 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-18080"]
+2019-07-26 13:22:40.645 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 13:22:40.648 INFO [restartedMain]com.wx.exam1.Exam1Application.logStarted:59 -Started Exam1Application in 2.318 seconds (JVM running for 3.718)
+2019-07-26 13:24:01.472 INFO [http-nio-18080-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-26 13:24:01.472 INFO [http-nio-18080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-07-26 13:24:01.478 INFO [http-nio-18080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 6 ms
+2019-07-26 13:24:01.644 INFO [http-nio-18080-exec-2]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-07-26 13:24:01.782 INFO [http-nio-18080-exec-2]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-07-26 13:24:01.787 DEBUG[http-nio-18080-exec-2]com.wx.exam1.dao.CustomerMapper.login.debug:159 -==>  Preparing: SELECT c.* From customer c WHERE c.first_name = ? AND c.last_name = ? 
+2019-07-26 13:24:01.797 DEBUG[http-nio-18080-exec-2]com.wx.exam1.dao.CustomerMapper.login.debug:159 -==> Parameters: we(String), dvdsv(String)
+2019-07-26 13:24:01.807 DEBUG[http-nio-18080-exec-2]com.wx.exam1.dao.CustomerMapper.login.debug:159 -<==      Total: 0
+2019-07-26 13:38:41.252 DEBUG[http-nio-18080-exec-5]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -==>  Preparing: SELECT a.* FROM address a WHERE a.address = ? 
+2019-07-26 13:38:41.253 DEBUG[http-nio-18080-exec-5]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -==> Parameters: dvsd(String)
+2019-07-26 13:38:41.256 DEBUG[http-nio-18080-exec-5]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -<==      Total: 0
+2019-07-26 13:38:41.270 WARN [http-nio-18080-exec-5]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:198 -Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.lang.String> com.wx.exam1.controller.CustomerController.addUser(com.wx.exam1.domain.Customer): [Field error in object 'customer' on field 'address': rejected value [dvsd]; codes [AdressExist.customer.address,AdressExist.address,AdressExist.java.lang.String,AdressExist]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [customer.address,address]; arguments []; default message [address],false]; default message [地址必须有效]] ]
+2019-07-26 13:38:59.205 DEBUG[http-nio-18080-exec-7]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -==>  Preparing: SELECT a.* FROM address a WHERE a.address = ? 
+2019-07-26 13:38:59.205 DEBUG[http-nio-18080-exec-7]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -==> Parameters: 125 Citt del Vaticano Boulevard(String)
+2019-07-26 13:38:59.211 DEBUG[http-nio-18080-exec-7]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -<==      Total: 1
+2019-07-26 13:38:59.212 DEBUG[http-nio-18080-exec-7]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -==>  Preparing: SELECT a.* FROM address a WHERE a.address = ? 
+2019-07-26 13:38:59.212 DEBUG[http-nio-18080-exec-7]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -==> Parameters: 125 Citt del Vaticano Boulevard(String)
+2019-07-26 13:38:59.214 DEBUG[http-nio-18080-exec-7]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -<==      Total: 1
+2019-07-26 13:39:06.345 DEBUG[http-nio-18080-exec-7]com.wx.exam1.dao.CustomerMapper.insertCustomer.debug:159 -==>  Preparing: INSERT INTO customer(first_name,last_name,email,address_id,store_id,create_date ) VALUES(?,?,?,1,1,NOW()) 
+2019-07-26 13:39:06.348 DEBUG[http-nio-18080-exec-7]com.wx.exam1.dao.CustomerMapper.insertCustomer.debug:159 -==> Parameters: we(String), dvdsv(String), email(String)
+2019-07-26 13:39:06.353 DEBUG[http-nio-18080-exec-7]com.wx.exam1.dao.CustomerMapper.insertCustomer.debug:159 -<==    Updates: 1
+2019-07-26 13:39:17.875 INFO [http-nio-18080-exec-7]com.wx.exam1.controller.CustomerController.addUser:57 -New CustomerID626
+2019-07-26 13:39:33.591 WARN [http-nio-18080-exec-8]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:198 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-07-26 13:39:50.696 DEBUG[http-nio-18080-exec-9]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -==>  Preparing: SELECT a.* FROM address a WHERE a.address = ? 
+2019-07-26 13:39:50.697 DEBUG[http-nio-18080-exec-9]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -==> Parameters: 125 Citt del Vaticano Boulevard(String)
+2019-07-26 13:39:50.699 DEBUG[http-nio-18080-exec-9]com.wx.exam1.dao.AddressMapper.isAddr.debug:159 -<==      Total: 1
+2019-07-26 13:39:50.700 DEBUG[http-nio-18080-exec-9]com.wx.exam1.dao.CustomerMapper.update.debug:159 -==>  Preparing: UPDATE customer c SET c.first_name=?, c.last_name=?, c.email=?, c.address_id=? WHERE c.customer_id=? 
+2019-07-26 13:39:50.701 DEBUG[http-nio-18080-exec-9]com.wx.exam1.dao.CustomerMapper.update.debug:159 -==> Parameters: we(String), dvdsv(String), email(String), 88(Short), 626(Short)
+2019-07-26 13:39:50.706 DEBUG[http-nio-18080-exec-9]com.wx.exam1.dao.CustomerMapper.update.debug:159 -<==    Updates: 1
+2019-07-26 13:39:50.707 DEBUG[http-nio-18080-exec-9]com.wx.exam1.dao.CustomerMapper.selectById.debug:159 -==>  Preparing: SELECT * FROM customer WHERE customer_id= ? 
+2019-07-26 13:39:50.708 DEBUG[http-nio-18080-exec-9]com.wx.exam1.dao.CustomerMapper.selectById.debug:159 -==> Parameters: 626(Short)
+2019-07-26 13:39:50.709 DEBUG[http-nio-18080-exec-9]com.wx.exam1.dao.CustomerMapper.selectById.debug:159 -<==      Total: 1
+2019-07-26 14:06:05.042 INFO [restartedMain]com.wx.exam1.Exam1Application.logStarting:50 -Starting Exam1Application on LAPTOP-CTHANLP5 with PID 9188 (D:\IDEA\JavaTest4\exam1\target\classes started by wangxiang in D:\IDEA\JavaTest4)
+2019-07-26 14:06:05.047 INFO [restartedMain]com.wx.exam1.Exam1Application.logStartupProfileInfo:650 -The following profiles are active: prod
+2019-07-26 14:06:05.091 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-26 14:06:05.092 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:225 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-26 14:06:05.599 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'addressMapper' and 'com.wx.exam1.dao.AddressMapper' mapperInterface. Bean already defined with the same name!
+2019-07-26 14:06:05.600 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'customerMapper' and 'com.wx.exam1.dao.CustomerMapper' mapperInterface. Bean already defined with the same name!
+2019-07-26 14:06:05.600 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'filmMapper' and 'com.wx.exam1.dao.FilmMapper' mapperInterface. Bean already defined with the same name!
+2019-07-26 14:06:05.600 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.wx.exam1]' package. Please check your configuration.
+2019-07-26 14:06:06.095 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 18080 (http)
+2019-07-26 14:06:06.107 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-18080"]
+2019-07-26 14:06:06.116 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-07-26 14:06:06.116 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-26 14:06:06.192 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-07-26 14:06:06.192 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:283 -Root WebApplicationContext: initialization completed in 1100 ms
+2019-07-26 14:06:06.620 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-07-26 14:06:06.621 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-07-26 14:06:06.621 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-07-26 14:06:06.623 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-07-26 14:06:06.754 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-07-26 14:06:06.776 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-18080"]
+2019-07-26 14:06:06.794 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:202 -Tomcat started on port(s): 18080 (http) with context path ''
+2019-07-26 14:06:06.797 INFO [restartedMain]com.wx.exam1.Exam1Application.logStarted:59 -Started Exam1Application in 2.286 seconds (JVM running for 3.543)

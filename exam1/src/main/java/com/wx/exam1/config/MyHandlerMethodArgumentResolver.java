@@ -23,8 +23,12 @@ public class MyHandlerMethodArgumentResolver implements HandlerMethodArgumentRes
     public Object resolveArgument(MethodParameter methodParameter, ModelAndViewContainer modelAndViewContainer, NativeWebRequest nativeWebRequest, WebDataBinderFactory webDataBinderFactory) throws Exception {
         HttpServletRequest request = nativeWebRequest.getNativeRequest(HttpServletRequest.class);
         Page pageObj = new Page();
-        pageObj.setPageSize(Integer.parseInt(request.getParameter("pageSize")));
-        pageObj.setPag(Integer.parseInt(request.getParameter("page")));
-        return pageObj;
+        try {
+            pageObj.setPageSize(Integer.parseInt(request.getParameter("pageSize")));
+            pageObj.setPag(Integer.parseInt(request.getParameter("page")));
+            return pageObj;
+        } catch (NumberFormatException e) {
+            return false;
+        }
     }
 }

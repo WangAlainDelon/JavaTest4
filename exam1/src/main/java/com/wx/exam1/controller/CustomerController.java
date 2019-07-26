@@ -41,7 +41,7 @@ public class CustomerController {
 
 
     /**
-     * 用户对象，包含first_name, last_name, email, address。
+     * 新增用户对象，包含first_name, last_name, email, address。
      * 校验地址
      *
      * @param customer
@@ -89,7 +89,6 @@ public class CustomerController {
         if (customer_id == null || customer_id <= 0) {
             return ResponseEntity.status(500).body(null);
         }
-        System.out.println(customer_id);
         customerService.deleteById(customer_id);
         return ResponseEntity.ok("Successful deletion!!!");
     }
